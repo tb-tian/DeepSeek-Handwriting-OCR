@@ -24,7 +24,6 @@ The project utilizes the **UIT-HWDB** dataset. Data was sampled to accommodate r
 The model was trained using **QLoRA** with the **PEFT** (Parameter-Efficient Fine-Tuning) mechanism.
 
 * **Target Modules:** Adapters applied to projection layers ($q, k, v, o\_proj$) and MLP layers ($gate, up, down\_proj$).
-* 
 * **Hyperparameters:**
 * Rank ($r$): 16 
 * Learning Rate: 2e-4 
